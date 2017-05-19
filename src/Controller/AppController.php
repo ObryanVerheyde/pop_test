@@ -17,6 +17,14 @@ namespace App\Controller;
 use Cake\Controller\Controller;
 use Cake\Event\Event;
 
+namespace App\Controller;
+
+class AppController extends \Cake\Controller\Controller
+{
+    use \Crud\Controller\ControllerTrait;
+
+}
+
 /**
  * Application Controller
  *

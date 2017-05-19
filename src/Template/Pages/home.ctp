@@ -45,17 +45,19 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
 <body class="home">
 
 <header class="row">
-    <div class="header-image"><?= $this->Html->image('cake.logo.svg') ?></div>
+    <div class="header-image"><?= $this->Html->image('popschool.png') ?></div>
     <div class="header-title">
-        <h1>Welcome to CakePHP <?= Configure::version() ?> Red Velvet. Build fast. Grow solid.</h1>
+        <h1>Nano-Blogging : Pop_Test</h1>
     </div>
 </header>
 
 <div class="row">
     <div class="columns large-12">
+      <!--
         <div class="ctp-warning alert text-center">
             <p>Please be aware that this page will not be shown if you turn off debug mode unless you replace src/Template/Pages/home.ctp with your own version.</p>
         </div>
+      -->
         <div id="url-rewriting-warning" class="alert url-rewriting">
             <ul>
                 <li class="bullet problem">
@@ -178,7 +180,9 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
         <ul>
             <li class="bullet book"><a target="_blank" href="http://book.cakephp.org/3.0/en/">CakePHP 3.0 Docs</a></li>
             <li class="bullet book"><a target="_blank" href="http://book.cakephp.org/3.0/en/tutorials-and-examples/bookmarks/intro.html">The 15 min Bookmarker Tutorial</a></li>
-            <li class="bullet book"><a target="_blank" href="http://book.cakephp.org/3.0/en/tutorials-and-examples/blog/blog.html">The 15 min Blog Tutorial</a></li>
+            <!--
+              <li class="bullet book"><a target="_blank" href="http://book.cakephp.org/3.0/en/tutorials-and-examples/blog/blog.html">The 15 min Blog Tutorial</a></li>
+            -->
         </ul>
         <p>
     </div>
@@ -186,10 +190,15 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
 
 <div class="row">
     <div class="columns large-12 text-center">
-        <h3 class="more">More about Cake</h3>
+        <h3 class="more">Author</h3>
         <p>
-            CakePHP is a rapid development framework for PHP which uses commonly known design patterns like Front Controller and MVC.<br />
-            Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility.
+          O'Bryan VERHEYDE
+        </p>
+        <p>
+          <a href="https://obryanverheyde.github.io/resume/" target="_blank">RESUME</a>
+        </p>
+        <p>
+          <a href="https://github.com/ObryanVerheyde/" target="_blank">GitHub</a>
         </p>
     </div>
     <hr/>
