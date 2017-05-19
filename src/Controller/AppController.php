@@ -49,9 +49,8 @@ class AppController extends Controller
             'action' => 'index'
           ],
           'logoutRedirect' => [
-            'controller' => 'Articles',
-            'action' => 'index',
-            'home'
+            'controller' => 'Users',
+            'action' => 'login'
           ]
         ]);
 
@@ -62,6 +61,8 @@ class AppController extends Controller
         //$this->loadComponent('Security');
         //$this->loadComponent('Csrf');
     }
+
+
 
     /**
      * Before render callback.
