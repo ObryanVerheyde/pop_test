@@ -319,11 +319,11 @@ pre {
 }
 
 .top-bar.expanded .title-area {
-    background: #01545b;
+    background: #1b97a2;
 }
 
 .top-bar.expanded, .top-bar,.top-bar-section ul li,.top-bar-section li:not(.has-form) a:not(.button) {
-    background: #116d76;
+    background: #20d6e7;
 }
 
 .top-bar-section li:not(.has-form) a:not(.button):hover {
@@ -389,7 +389,7 @@ fieldset {
 }
 
 fieldset legend {
-    border-bottom: 2px solid #1798A5;
+    border-bottom: 2px solid #19a9b8;
     width: 100%;
     line-height: 2rem;
 }
@@ -406,7 +406,7 @@ fieldset legend {
 }
 
 button {
-    background: #966600;
+    background: #00bb89;
 }
 
 div.message {
@@ -499,7 +499,7 @@ div.message.hidden {
 }
 
 .content h3 {
-    color: #be140b;
+    color: #0aa866;
     padding-bottom: 0.5rem;
     margin-bottom: 20px;
 }

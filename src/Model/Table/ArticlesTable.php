@@ -20,6 +20,16 @@ use Cake\Validation\Validator;
 class ArticlesTable extends Table
 {
 
+/************
+public function findPublished(Query $query, array $options)
+{
+  $query = $addresses->find('all')->contain(['Users']);
+  foreach ($query as $address)
+  {
+    echo $address->user->username;
+  }
+}
+************/
     /**
      * Initialize method
      *
@@ -29,7 +39,9 @@ class ArticlesTable extends Table
     public function initialize(array $config)
     {
         parent::initialize($config);
-
+      /***************  $this->belongsTo('Users')
+        ->setForeignKey('user_id')
+        ->setJoinType('INNER'); *****************/
         $this->setTable('articles');
         $this->setDisplayField('title');
         $this->setPrimaryKey('id');
@@ -43,6 +55,10 @@ class ArticlesTable extends Table
      */
     public function validationDefault(Validator $validator)
     {
+  /**********    $validator
+      ->integer($this->Auth->user('id'))
+      ->allowEmpty('user_id', 'create');
+************/
         $validator
             ->integer('id')
             ->allowEmpty('id', 'create');
@@ -60,10 +76,10 @@ class ArticlesTable extends Table
             ->requirePresence('creation_date', 'create')
             ->notEmpty('creation_date');
 
-        $validator
+      /*  $validator
             ->requirePresence('media', 'create')
             ->notEmpty('media');
-
+*/
         return $validator;
     }
 }
