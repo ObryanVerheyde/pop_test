@@ -49,3 +49,17 @@ configuration relevant for your application.
 The app skeleton uses a subset of [Foundation](http://foundation.zurb.com/) CSS
 framework by default. You can, however, replace it with any other library or
 custom styles.
+
+
+********************************************************************************************************************************
+
+# Appli Nano-blogging CakePHP
+
+Problèmes rencontrés :
+    - Apprentissage du framework,
+    - Deadline un peu courte (d'où utilisation du framework CakePHP),
+    - Impossible d'afficher les articles à la connexion d'un utilisateur,
+    - Le nom des tables n'est pas comme demandé, car CakePHP utilise des conventions de nommage.
+
+
+# J'ai reçu un peu d'aide de Gaëlle qui avait déjà vu CakePHP et qui m'a expliqué le principe de fonctionnement.
